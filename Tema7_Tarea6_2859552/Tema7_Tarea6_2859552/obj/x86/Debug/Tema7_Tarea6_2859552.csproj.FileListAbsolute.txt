@@ -1,0 +1,6 @@
+/Users/adrianrangelsuarez/Projects/Tema7_Tarea6_2859552/Tema7_Tarea6_2859552/bin/Debug/Tema7_Tarea6_2859552.exe
+/Users/adrianrangelsuarez/Projects/Tema7_Tarea6_2859552/Tema7_Tarea6_2859552/bin/Debug/Tema7_Tarea6_2859552.pdb
+/Users/adrianrangelsuarez/Projects/Tema7_Tarea6_2859552/Tema7_Tarea6_2859552/obj/x86/Debug/Tema7_Tarea6_2859552.csprojAssemblyReference.cache
+/Users/adrianrangelsuarez/Projects/Tema7_Tarea6_2859552/Tema7_Tarea6_2859552/obj/x86/Debug/Tema7_Tarea6_2859552.csproj.CoreCompileInputs.cache
+/Users/adrianrangelsuarez/Projects/Tema7_Tarea6_2859552/Tema7_Tarea6_2859552/obj/x86/Debug/Tema7_Tarea6_2859552.exe
+/Users/adrianrangelsuarez/Projects/Tema7_Tarea6_2859552/Tema7_Tarea6_2859552/obj/x86/Debug/Tema7_Tarea6_2859552.pdb

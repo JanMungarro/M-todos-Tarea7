@@ -1,7 +1,7 @@
 ﻿/*
  * Elaborado por
  * Adrián Rangel Suárez, 2859552
- * Jan Mungarro, mat.
+ * Jan Mungarro, 2729982
  */
 
 using System;
@@ -128,6 +128,40 @@ namespace Tema7_Tarea6_2859552
 
         public static void Main(string[] args)
         {
+            Secante(-4, .000001, .000009, .1);
+            Biseccion(-4, .000001, .000009, .1);
+            int counter = 0;
+            NewtonRhapson(-4, puntoCriterio);
+                
+            if(counter == 100)
+            return false;
+
+            if (Math.Abs(y) > standard)
+            {
+            Console.WriteLine("Contador: " + counter);
+            Console.WriteLine("x = " + Math.Round(x, 4));
+            Console.WriteLine("y = " + Math.Round(y, 4));
+            return true;
+            }
+            
+            if (y > maxLim || y < minLim)
+            {
+            Console.WriteLine("Contador: " + counter);
+            Console.WriteLine("x = " + Math.Round(xMed, 4));
+            Console.WriteLine("y = " + Math.Round(yNew, 4));
+            return true;
+            }
+            
+            if (yNew > maxLim || yNew < minLim)
+            {
+            Console.WriteLine("Contador: " + counter);
+            Console.WriteLine("x = " + Math.Round(xMed, 4));
+            Console.WriteLine("y = " + Math.Round(yNew, 4));
+            return true;
+            }
+
+        }
+                
             /*
              *Los métodos retornan un valor booleano (true o false) con un contador
              *si el contador llega a 100 entonces manda falso, de lo contrario mandar verdad,
@@ -135,10 +169,9 @@ namespace Tema7_Tarea6_2859552
              *que se pase al siguiente método, en el orden de NewtonRhapson, Secante y como última opción mandar
              *bisección.
              *Para rellenar las funciones es:
-             *NewtonRhapson(-4, puntoCriterio)
-             *Secante(-4, .000001, .000009, .1)
-             *Biseccion(-4, .000001, .000009, .1)
+
              */
         }
+    Console.ReadLine();
     }
 }
